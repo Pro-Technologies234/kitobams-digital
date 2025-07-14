@@ -26,13 +26,13 @@ export function Hero() {
                 <p className="text-center font-extralight text-xs mt-2 md:mt-5 px-5 text-white  w-xs md:w-md lg:w-lg m-auto" >At Kitobams Digital Graphics, we bring your ideas to life through stunning graphic design and high-quality print solutions. </p>
                 <div className="w-full m-auto flex gap-3 justify-center mt-5" >
                     <Link href="">
-                        <button className="group text-xs md:text-sm cursor-pointer outline-offset-2 outline-1 outline-black text-white shadow-2xl md:shadow-2xl hover:shadow-2xl transition-all duration-500 hover:-translate-y-1  bg-black px-5 py-1.5  rounded-full flex gap-2 items-center" >
+                        <button className="group text-xs md:text-sm cursor-pointer outline-offset-2 outline-1 outline-black text-white shadow-2xl md:shadow-2xl hover:shadow-2xl transition-all duration-500 hover:-translate-y-1  bg-black px-4 py-1.5  rounded-full flex gap-2 items-center" >
                             View Our Designs 
                             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" stroke="currentColor" stroke-width="0" stroke-linecap="round" stroke-linejoin="round" className=" slucide lucide-chevron-right-icon lucide-chevron-right"><path d="m9 18 6-6-6-6"/></svg>
                         </button>
                     </Link>
                     <Link href="">
-                        <button className="group text-xs md:text-sm cursor-pointer outline-1 outline-white text-white shadow-2xl md:shadow-2xl hover:shadow-2xl transition-all duration-500 hover:-translate-y-1   px-5 py-1.5  rounded-full flex gap-2 items-center" >
+                        <button className="group text-xs md:text-sm cursor-pointer outline-1 outline-white text-white shadow-2xl md:shadow-2xl hover:shadow-2xl transition-all duration-500 hover:-translate-y-1   px-4 py-1.5  rounded-full flex gap-2 items-center" >
                             Contact us
                             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" stroke="currentColor" stroke-width="0" stroke-linecap="round" stroke-linejoin="round" className=" slucide lucide-chevron-right-icon lucide-chevron-right"><path d="m9 18 6-6-6-6"/></svg>
                         </button>

@@ -28,7 +28,7 @@ const navigation = [
 
 export function Navbar() {
     return (
-        <header className="z-10 fixed w-full justify-between px-4 md:px-10 text-xs md:text-sm font-extralight top-0  flex py-2 items-center h-15" >
+        <header className="z-10 fixed w-full max-w-6xl  justify-between px-4 md:px-10 text-xs md:text-sm font-extralight top-0  flex py-2 items-center h-15" >
             <div>
 
             </div>
