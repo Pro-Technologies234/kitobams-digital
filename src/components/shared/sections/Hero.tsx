@@ -15,7 +15,7 @@ export function Hero() {
     return (
         <>
             <main className="z-10  w-full h-screen dark:text-white" >
-            <div className=' w-full h-dvh overflow-hidden -Z-10 rounded-b-2xl  absolute' >
+            <div className=' w-full h-dvh overflow-hidden -Z-10 rounded-b-2xl bg-black  absolute' >
             <Image src={bg} alt='' className="obejct-cover w-full -z-1 h-full" />
             </div>
             <div  className="w-full pt-40 absolute bg-radial from-transparent via-black/20 to-black h-screen" >  
