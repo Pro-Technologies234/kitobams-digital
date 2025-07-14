@@ -4,6 +4,7 @@ import aboutImage from "@/assets/images/about/about.jpg";
 import { Button } from "@/components/ui/button";
 import { Navbar } from "@/components/shared/navbar";
 import { Footer } from "@/components/shared/footer";
+import Link from "next/link";
 
 export default function About() {
     return (
@@ -27,13 +28,15 @@ export default function About() {
                             <br />
                             We believe that great design goes beyond looks — it tells a story, builds trust, and inspires action.
                         </p>
-                        <Button className="group text-xs w-45 h-12 relative overflow-hidden mt-6 bg-white shadow-md rounded-full text-violet-600 z-0 hover:text-white hover:bg-white cursor-pointer  font-medium" >
-                            <div className="absolute bottom-0 left-0 group-hover:w-100 group-hover:h-full ease-in-out -z-1 h-0 transition-all w-0 rounded-full  group-hover:bg-violet-600" >
-                                
-                            </div>
-                            OUR SERVICES
-                            <ArrowRight size={16} />
-                        </Button>
+                        <Link href="/services"  >
+                            <Button className="group text-xs w-45 h-12 relative overflow-hidden mt-6 bg-white shadow-md rounded-full text-violet-600 z-0 hover:text-white hover:bg-white cursor-pointer  font-medium" >
+                                <div className="absolute bottom-0 left-0 group-hover:w-100 group-hover:h-full ease-in-out -z-1 h-0 transition-all w-0 rounded-full  group-hover:bg-violet-600" >
+                                    
+                                </div>
+                                OUR SERVICES
+                                <ArrowRight size={16} />
+                            </Button>
+                        </Link>
                     </div>
                     <div className="flex items-center h-full " >
                         <div className="rounded-2xl overflow-hidden w-full h-90" >

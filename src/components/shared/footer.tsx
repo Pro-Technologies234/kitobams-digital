@@ -26,7 +26,7 @@ export function Footer() {
     return (
         <footer className="relative max-w-6xl dark:bg-black drop-shadow-2xl  not-dark:drop-shadow-black/20 bg-white mt-20 m-auto  rounded-t-xl dark:text-white text-black flex md:flex-row gap-5 flex-col justify-between p-10 pb-30" >
             <div>
-                <h1 className="font-bold text-2xl text-amber-500" >Kitobams <span className="text-fuchsia-600" > Digital Graphics</span></h1>
+                <h1 className="font-bold text-2xl " >Kitobams <span className="text-violet-600" > Digital Graphics</span></h1>
                 <p className="text-xs font-extralight mt-2 w-auto md:w-sm" >
                     3 Onwuchikwa Street ,Off Market Road, 
                     Rumuomasi, Rumuola, Port Harcourt, Rivers 500102, Rivers
