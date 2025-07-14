@@ -1,6 +1,5 @@
 import Image from "next/image";
-import { ArrowRight, ArrowUpRight } from "lucide-react";
-import aboutImage from "@/assets/images/about/about.jpg";
+import { ArrowUpRight } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Navbar } from "@/components/shared/navbar";
 import graphics from '@/assets/images/services/graphics.jpg'
