@@ -74,7 +74,7 @@ export function Footer() {
                     }
                 </div>
             </div>
-              <span className="font-extralight text-zinc-300 absolute left-0 right-0 bottom-4  text-center text-xs md:text-sm " >&copy; {new Date().getFullYear()} Kitobams Digital Graphics. All rights reserved.</span>
+              <span className="font-extralight dark:text-zinc-300 absolute left-0 right-0 bottom-4  text-center text-xs md:text-sm " >&copy; {new Date().getFullYear()} Kitobams Digital Graphics. All rights reserved.</span>
         </footer>
     )
 }
