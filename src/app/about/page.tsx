@@ -5,13 +5,14 @@ import aboutImage from "@/assets/images/about/about.jpg";
 import { Button } from "@/components/ui/button";
 import { Navbar } from "@/components/shared/navbar";
 import { div } from "motion/react-client";
+import { Footer } from "@/components/shared/footer";
 
 export default function About() {
     return (
         <div>
             <Navbar/>
-            <div className="bg-violet-200 w-full text-black md:h-screen">
-                <div className="w-full max-w-7xl m-auto py-15 pl-8 grid gap-10 md:grid-cols-2" >                
+            <div className="bg-violet-200 w-full text-black ">
+                <div className="w-full max-w-7xl m-auto py-15 md:pl-8 px-4  grid gap-10 md:grid-cols-2" >                
                     <div  >
                         <h1 className="text-2xl md:text-3xl lg:text-4xl font-semibold text-violet-600 w-auto md:w-xl lg:w-2xl uppercase" >
                             About Us
@@ -19,7 +20,7 @@ export default function About() {
                         <h2 className="text-2xl md:text-3xl lg:text-6xl font-light selection:bg-violet-600 selection:text-white  w-auto md:w-xl lg:w-2xl mt-5" >
                             Kitobams Digital Graphics
                         </h2>
-                        <p className="text-xs font-light selection:bg-violet-600 selection:text-white  w-sm mt-8" >
+                        <p className="text-xs font-light selection:bg-violet-600 selection:text-white  md:w-sm mt-8" >
                             Kitobams Digital Graphics is a creative design and print studio dedicated to bringing your ideas to life through stunning visuals and high-quality printing. Founded with a passion for design and a commitment to excellence, we help individuals and businesses make a bold and lasting impression.
                             <br />
                             <br />
@@ -42,6 +43,7 @@ export default function About() {
                         </div>
                     </div>
                 </div>
+                <Footer/>
             </div>
         </div>
 

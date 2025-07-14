@@ -1,11 +1,13 @@
+'use client'
 import Link from "next/link"
+import { usePathname } from "next/navigation"
 
 
 const quick_links = [
     { name: 'Home', link: '/' },
-    { name: 'Services', link: '/' },
-    { name: 'About us', link: '/' },
-    { name: 'Contact', link: '/' },
+    { name: 'Services', link: '/services' },
+    { name: 'About us', link: '/about' },
+    { name: 'Contact', link: '/contact' },
 ]
 const resource_links = [
     { name: 'Designs', link: '/' },
@@ -20,6 +22,7 @@ const social_links = [
 ]
 
 export function Footer() {
+    const currentPath = usePathname()
     return (
         <footer className="relative max-w-6xl dark:bg-black drop-shadow-2xl  not-dark:drop-shadow-black/20 bg-white mt-20 m-auto  rounded-t-xl dark:text-white text-black flex md:flex-row gap-5 flex-col justify-between p-10 pb-30" >
             <div>
@@ -44,7 +47,7 @@ export function Footer() {
                     <span className="font-medium text-sm" >Quick links</span>
                     {
                         quick_links.map((quic_link, id)=>(
-                            <Link href={quic_link.link} className="hover:text-fuchsia-500"  >
+                            <Link href={quic_link.link} className={`hover:text-fuchsia-500 ${ currentPath === quic_link.link && 'text-violet-500' }`}  >
                                 {quic_link.name}
                             </Link>
                         ))

@@ -1,6 +1,7 @@
 import { ArrowRight } from "lucide-react"
 import Link from "next/link"
 import { ModeToggle } from "./mode-toggle"
+import { BurgerMenu } from "./burger-menu"
 
 const navigation = [
     {
@@ -9,7 +10,7 @@ const navigation = [
     },
     {
         name: 'Services',
-        link: '/'
+        link: '/services'
     },
     {
         name: 'About us',
@@ -31,7 +32,7 @@ export function Navbar() {
             <div>
 
             </div>
-            <div className="flex items-center bg-black/20 text-white backdrop-blur-xs shadow-lg shadow-black/20 p-1  rounded-full gap-4" > 
+            <div className="flex justify-between items-center bg-black/40 text-white backdrop-blur-xs shadow-lg shadow-black/20 p-1 not-sm:w-full rounded-full gap-4" > 
                 <nav className="hidden md:flex font-medium items-center gap-5  " >
                     {
                         navigation.map((nav,id)=>(
@@ -44,10 +45,11 @@ export function Navbar() {
                         ))
                     }
                 </nav>
+                <BurgerMenu/>
                 <div className="flex items-center gap-2" >
                     <ModeToggle />
                     <Link href="">
-                        <button className="group   bg-gradient-to-br from-fuchsia-400 to-violet-600 dark:bg-white font-normal text-white  pl-8 p-0.5 transition-all cursor-pointer ease-out hover:rounded-bl-none rounded-full flex gap-4 items-center" >
+                        <button className="group    bg-violet-600 font-normal text-white  pl-8 p-0.5 transition-all cursor-pointer ease-out hover:rounded-bl-none rounded-full flex gap-4 items-center" >
                             OUR DESIGNS
                             <span className="p-2 rounded-full bg-white  dark:bg-black dark:text-white text-black transition-all ease-out group-hover:rotate-45" >
                                 <ArrowRight size={20} />
