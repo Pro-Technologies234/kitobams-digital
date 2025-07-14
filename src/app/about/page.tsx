@@ -22,7 +22,7 @@ export default function About() {
                             Kitobams Digital Graphics is a creative design and print studio dedicated to bringing your ideas to life through stunning visuals and high-quality printing. Founded with a passion for design and a commitment to excellence, we help individuals and businesses make a bold and lasting impression.
                             <br />
                             <br />
-                            From custom logo designs to eye-catching prints and professional design training, we provide solutions that combine creativity, functionality, and quality. Whether you're starting a new brand, promoting an event, or looking to sharpen your design skills, Kitobams is your trusted creative partner.
+                            From custom logo designs to eye-catching prints and professional design training, we provide solutions that combine creativity, functionality, and quality. Whether you are starting a new brand, promoting an event, or looking to sharpen your design skills, Kitobams is your trusted creative partner.
                             <br />
                             <br />
                             We believe that great design goes beyond looks — it tells a story, builds trust, and inspires action.

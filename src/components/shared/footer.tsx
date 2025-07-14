@@ -47,7 +47,7 @@ export function Footer() {
                     <span className="font-medium text-sm" >Quick links</span>
                     {
                         quick_links.map((quic_link, id)=>(
-                            <Link href={quic_link.link} className={`hover:text-fuchsia-500 ${ currentPath === quic_link.link && 'text-violet-500' }`}  >
+                            <Link key={id} href={quic_link.link} className={`hover:text-fuchsia-500 ${ currentPath === quic_link.link && 'text-violet-500' }`}  >
                                 {quic_link.name}
                             </Link>
                         ))

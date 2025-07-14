@@ -5,7 +5,6 @@ import Image from "next/image";
 import design_1 from '@/assets/images/designs/15630.jpg'
 import design_2 from '@/assets/images/carousel/19612.jpg'
 import design_3 from '@/assets/images/carousel/2509.jpg'
-import { title } from "process";
 import { useState } from "react";
 
 const graphic = [
