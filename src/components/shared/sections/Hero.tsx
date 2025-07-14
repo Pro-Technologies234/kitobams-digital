@@ -6,7 +6,7 @@ import design_8 from '@/assets/images/designs/THE ONE MARRIAGE SOLUTION 2.jpg'
 import design_9 from '@/assets/images/designs/THE DAY OF STRANGE TESTIMONIES 2.jpg'
 import design_10 from '@/assets/images/designs/SPECIAL EASTER CELERBATION 2025 CORECTED 1.jpg'
 
-import design from '@/assets/images/designs/12664.jpg'
+
 import design_5 from '@/assets/images/designs/AN EVENING WITH THE MASTERS 2.jpg'
 import design_6 from '@/assets/images/designs/APRIL Our Month of Rememberance 1.jpg'
 import design_7 from '@/assets/images/designs/HIS EVERLASTING ARMS CORECTED 1.jpg'
@@ -98,7 +98,7 @@ export function Hero() {
         <div className="w-full space-y-20 grid grid-cols-1 grid-rows-3 md:grid-cols-3 md:grid-rows-1 gap-8 mt-10" >
           <div className="grid grid-rows-9  h-80 not-sm:mt-10" >
             <div className="row-span-7 rounded-2xl shadow overflow-hidden" >
-              <Image src={design_5} alt={`${design}`} className="object-cover w-full h-full" />
+              <Image src={design_5} alt={`desing`} className="object-cover w-full h-full" />
             </div>
             <div className="p-2 flex flex-col" >
               <h3 className="font-semibold" >Bold Brand Identity</h3>
@@ -113,7 +113,7 @@ export function Hero() {
           </div>
           <div className="grid grid-rows-9  h-80 not-sm:mt-10" >
             <div className="row-span-7 rounded-2xl shadow overflow-hidden" >
-              <Image src={design_7} alt={`${design}`} className="object-cover w-full h-full" />
+              <Image src={design_7} alt={`design`} className="object-cover w-full h-full" />
             </div>
             <div className="p-2 flex flex-col" >
               <h3 className="font-semibold" >Print-Ready Perfection</h3>
@@ -128,7 +128,7 @@ export function Hero() {
           </div>
           <div className="grid grid-rows-9  h-80 not-sm:mt-10" >
             <div className="row-span-7 rounded-2xl shadow overflow-hidden" >
-              <Image src={design_6} alt={`${design}`} className="object-cover w-full h-full" />
+              <Image src={design_6} alt={`design`} className="object-cover w-full h-full" />
             </div>
             <div className="p-2 flex flex-col" >
               <h3 className="font-semibold" >Creative Skill Training</h3>

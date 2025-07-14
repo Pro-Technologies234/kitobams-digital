@@ -1,10 +1,8 @@
 import Image from "next/image";
 import { ArrowRight } from "lucide-react";
-import Link from "next/link";
 import aboutImage from "@/assets/images/about/about.jpg";
 import { Button } from "@/components/ui/button";
 import { Navbar } from "@/components/shared/navbar";
-import { div } from "motion/react-client";
 import { Footer } from "@/components/shared/footer";
 
 export default function About() {
