@@ -55,7 +55,7 @@ export function BurgerMenu() {
             {
                 navigation.map((nav,id)=>(
                     <Link key={id} href={nav.link}  >
-                      <Button className={`w-full flex justify-start text-white  ${ currentPath === nav.link ? 'bg-violet-600' : 'bg-black'}`} >
+                      <Button className={`w-full flex justify-start text-white  ${ currentPath === nav.link ? 'bg-violet-600' : 'bg-zinc-100 dark:bg-black not-dark:text-black'}`} >
                         {nav.name}
                       </Button>
                     </Link>
